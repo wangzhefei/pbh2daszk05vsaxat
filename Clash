@@ -1,1 +1,411 @@
+port: 7890
+socks-port: 7891
+redir-port: 0
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090
+secret: ""
+Proxy:
+  - name: G02 HK01
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: ab43127c1cd8e130981873e929c7d207.wuyiauto.com
+  - name: G02 HK02
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: 7c55f8d1c664d769cc2af52642d003f1.wuyiauto.com
+  - name: G02 HK03
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: fe1d4695ee9441fbb0374dfecedc5a93.wuyiauto.com
+  - name: G02 HK04
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: 36a0cf75d646873ebdc6d1705c4ae5c2.wuyiauto.com
+  - name: G02 HK05
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: c920801738aaa120ead50625a4ec5abb.wuyiauto.com
+  - name: G02 HK06
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: 320fbdd4cbaccf4a32aab0b00485d76f.wuyiauto.com
+  - name: G02 HK07
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: 31f5462ef13c6e26d41472dae8bcd821.wuyiauto.com
+  - name: G02 HK08
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: 358cb3b7e2655a7f70ee6c44b42bc251.wuyiauto.com
+  - name: G02 HK09
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: 0ac602c8440fc0b0b765f638c6f23a90.wuyiauto.com
+  - name: G02 HK10
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: cd6b2a8e359dabd943545c50ccbf29fd.wuyiauto.com
+  - name: G02 HK11
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: d71aab8aad8dfbfc830a8ebefec3b8a8.wuyiauto.com
+  - name: G02 HK12
+    type: vmess
+    server: 40b008a5cbbb71aaa63806879d390624.03ss.xyz
+    port: "443"
+    uuid: afc50662-567a-3c60-8fb7-d1c7cbabe3de
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /user
+    tls: true
+    ws-headers:
+      Host: c9ec906a94eecba0d84e7e5acb882525.wuyiauto.com
+  - name: ALI-101
+    type: vmess
+    server: 101.grabrich.xyz
+    port: 80
+    uuid: 905D0011-93BA-4238-EC66-ECC6D1175C34
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 101.alibaba.zhileshu.com
+  - name: ALI-102
+    type: vmess
+    server: 102.grabrich.xyz
+    port: 80
+    uuid: 905D0011-93BA-4238-EC66-ECC6D1175C34
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 102.alibaba.zhileshu.com
+  - name: ALI-103
+    type: vmess
+    server: 103.grabrich.xyz
+    port: 80
+    uuid: 905D0011-93BA-4238-EC66-ECC6D1175C34
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 103.alibaba.zhileshu.com
+  - name: ALI-104
+    type: vmess
+    server: 104.grabrich.xyz
+    port: 80
+    uuid: 905D0011-93BA-4238-EC66-ECC6D1175C34
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 104.alibaba.zhileshu.com
+  - name: ALI-105
+    type: vmess
+    server: 105.grabrich.xyz
+    port: 80
+    uuid: 905D0011-93BA-4238-EC66-ECC6D1175C34
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 105.alibaba.zhileshu.com
+  - name: ALI-106
+    type: vmess
+    server: 106.grabrich.xyz
+    port: 80
+    uuid: 905D0011-93BA-4238-EC66-ECC6D1175C34
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 106.alibaba.zhileshu.com
+  - name: ALI-107
+    type: vmess
+    server: 107.grabrich.xyz
+    port: 80
+    uuid: 905D0011-93BA-4238-EC66-ECC6D1175C34
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 107.alibaba.zhileshu.com
+  - name: ALI-108
+    type: vmess
+    server: 108.grabrich.xyz
+    port: 80
+    uuid: 905D0011-93BA-4238-EC66-ECC6D1175C34
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 108.alibaba.zhileshu.com
+  - name: ALI-109
+    type: vmess
+    server: 109.grabrich.xyz
+    port: 80
+    uuid: 905D0011-93BA-4238-EC66-ECC6D1175C34
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 109.alibaba.zhileshu.com
+  - name: ALI-110
+    type: vmess
+    server: 110.grabrich.xyz
+    port: 80
+    uuid: 905D0011-93BA-4238-EC66-ECC6D1175C34
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 110.alibaba.zhileshu.com
+  - name: 【lv1】台湾01
+    type: vmess
+    server: v2.tw1.2yun.win
+    port: "3306"
+    uuid: 5f5fa8a6-00be-375d-acbb-9b0f2b178b24
+    alterId: "2"
+    cipher: auto
+    network: ws
+    ws-path: /v2ray
+    tls: true
+  - name: 【lv1】新加坡01
+    type: vmess
+    server: v2.sgp1.2yun.win
+    port: "3307"
+    uuid: 5f5fa8a6-00be-375d-acbb-9b0f2b178b24
+    alterId: "2"
+    cipher: auto
+    network: ws
+    ws-path: /v2ray
+    tls: true
+  - name: 【lv1】新加坡02
+    type: vmess
+    server: v2.sgp2.2yun.win
+    port: "3306"
+    uuid: 5f5fa8a6-00be-375d-acbb-9b0f2b178b24
+    alterId: "2"
+    cipher: auto
+    network: ws
+    ws-path: /v2ray
+    tls: true
+  - name: 【lv1】日本01
+    type: vmess
+    server: v2.jp1.2yun.win
+    port: "3306"
+    uuid: 5f5fa8a6-00be-375d-acbb-9b0f2b178b24
+    alterId: "0"
+    cipher: auto
+    network: ws
+    ws-path: /v2ray
+    tls: true
+  - name: 【lv1】美国01
+    type: vmess
+    server: v2.us1.2yun.win
+    port: "3306"
+    uuid: 5f5fa8a6-00be-375d-acbb-9b0f2b178b24
+    alterId: "2"
+    cipher: auto
+    network: ws
+    ws-path: /v2ray
+    tls: true
+  - name: 【lv1】香港01
+    type: vmess
+    server: v2.hk1.2yun.win
+    port: "3306"
+    uuid: 5f5fa8a6-00be-375d-acbb-9b0f2b178b24
+    alterId: "0"
+    cipher: auto
+  - name: 【lv1】香港02
+    type: vmess
+    server: 2yun.v2.hk2.2yun.win
+    port: "23458"
+    uuid: 5f5fa8a6-00be-375d-acbb-9b0f2b178b24
+    alterId: "0"
+    cipher: auto
+  - name: 【lv1】香港05
+    type: vmess
+    server: v2.hk5.2yun.win
+    port: "3306"
+    uuid: 5f5fa8a6-00be-375d-acbb-9b0f2b178b24
+    alterId: "16"
+    cipher: auto
+    network: ws
+    ws-path: /v2ray
+    tls: true
+  - name: 【lv1】香港06
+    type: vmess
+    server: v2.hk6.2yun.win
+    port: "3306"
+    uuid: 5f5fa8a6-00be-375d-acbb-9b0f2b178b24
+    alterId: "0"
+    cipher: auto
+    network: ws
+    ws-path: /v2ray
+    tls: true
+  - name: 【lv1】香港07
+    type: vmess
+    server: v2.hk7.2yun.win
+    port: "3306"
+    uuid: 5f5fa8a6-00be-375d-acbb-9b0f2b178b24
+    alterId: "0"
+    cipher: auto
+    network: ws
+    ws-path: /v2ray
+    tls: true
+Proxy Group:
+  - name: v2ray
+    proxies:
+      - G02 HK01
+      - G02 HK02
+      - G02 HK03
+      - G02 HK04
+      - G02 HK05
+      - G02 HK06
+      - G02 HK07
+      - G02 HK08
+      - G02 HK09
+      - G02 HK10
+      - G02 HK11
+      - G02 HK12
+      - ALI-101
+      - ALI-102
+      - ALI-103
+      - ALI-104
+      - ALI-105
+      - ALI-106
+      - ALI-107
+      - ALI-108
+      - ALI-109
+      - ALI-110
+    type: select
+  - name: proxy
+    proxies:
+      - 【lv1】台湾01
+      - 【lv1】新加坡01
+      - 【lv1】新加坡02
+      - 【lv1】日本01
+      - 【lv1】美国01
+      - 【lv1】香港01
+      - 【lv1】香港02
+      - 【lv1】香港05
+      - 【lv1】香港06
+      - 【lv1】香港07
+    type: select
+Rule:
+  - DOMAIN-KEYWORD,bannedbook,proxy
+  - DOMAIN-KEYWORD,pincong,proxy
+  - DOMAIN-KEYWORD,dafahao,proxy
+  - DOMAIN-KEYWORD,minghui,proxy
+  - DOMAIN-KEYWORD,dongtaiwang,proxy
+  - DOMAIN-KEYWORD,epochtimes,proxy
+  - DOMAIN-KEYWORD,ntdtv,proxy
+  - DOMAIN-KEYWORD,falundafa,proxy
+  - DOMAIN-KEYWORD,wujieliulan,proxy
+  - DOMAIN-KEYWORD,zhengjian,proxy
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,v2ray
 
